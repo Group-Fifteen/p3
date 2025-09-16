@@ -1,0 +1,45 @@
+/*
+    Makes the border for the whole tabel.
+*/
+table {
+    border: black solid 1px;
+}
+/*
+    Makes the td tag with the class not in mouth
+    have a transparent background.
+*/
+td.not-in-month{
+    background-color: transparent;
+}
+/*
+    Makes it so when you hover over the td tag with
+    the class not in mouth have the text change to the
+    color black.
+*/
+td.not-in-month:hover {
+    cursor: default;
+    background-color: transparent;
+    color: black;
+}
+/*
+    Styling the td elements giving them
+    height and width postioning the text and
+    seting the background color. 
+*/
+td {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: whitesmoke;
+    margin: 1px;
+}
+/*
+    Syyling for when you hover over
+    td elements and month selcoter class
+    to have a yellow background golden text.
+*/
+td:hover, .month-selector:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
